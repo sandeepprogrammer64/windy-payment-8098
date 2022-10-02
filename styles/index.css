@@ -62,6 +62,11 @@ p
 }
  /* https://wallpapercave.com/wp/wp2787724.jpg */
 
+
+ #loginBanner div div 
+ {
+    display: flex;
+ }
  #bannerHeading
  {
     color: white;
@@ -82,6 +87,7 @@ p
  #insideSbanner
  {
     display: flex;
+    margin-left: 30px;
  }
 
  #insideSbanner p
@@ -89,12 +95,128 @@ p
     color: white;
     font-family: "Poppins";
  }
-
-
- 
-
- input
- {
-    width: 400px;
+#searchBar
+{
+    margin-left: 30px;
+    width: 460px;
     height: 35px;
+}
+
+.btnsearch
+{
+    width: 140px;
+    background-color: rgb(64, 64, 175);
+    border: none;
+    color: white;
+    font-family: "Poppins";
+}
+.bar
+{
+    display: flex;
+}
+
+#trend
+{
+    color: white;
+}
+ #inner
+ {
+    width: 80%;
+    height: 230px;
+    border: 1px solid teal;
+    margin-left: 104%;
+    position: relative;
+    margin-bottom: 400px
  }
+
+
+ a
+ {
+    text-decoration: none;
+    font-family: "Poppins";
+ }
+
+ #workfromHome
+ {
+    display: grid;
+    grid-template-columns: repeat(4, 26%);
+    grid-template-rows: repeat(1, );
+    margin-top: 30px;
+ }
+
+ #workfromHome> div
+ {
+    display: grid;
+    border: 1px solid rgb(247, 232, 232);
+    height: 100px;
+
+ }
+ 
+ #premium
+ {
+    display: flex;
+    gap: 10px;
+ }
+
+ #premium div
+ {
+    border: 1px solid rgb(194, 182, 182);
+    
+ }
+
+.imm
+{
+   margin-top: 20px;
+   margin-left: 150px;
+}
+
+#mo
+{
+    font-family: "Poppins";
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#mr> div
+{
+    border: 1px ;
+    height: 200px;
+    width: 80%;
+    margin-left: 100px;
+    background-color: rgb(204, 204, 204);
+    font-family: "Poppins";
+}
+
+#career
+{
+    font-family: "Poppins";
+    margin-left: 100px;
+}
+
+.footer
+{
+    width: 100%;
+    height: 340px;
+    background-color: rgb(129, 129, 189);
+    display: flex;
+    
+}
+
+.footer >div 
+{
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1);
+    width: 20%;
+    color: white;
+    font-family: "Poppins";
+
+}
+
+.footer a
+{
+    color: aliceblue;
+    font-family: "Poppins";
+    padding-left: 30px;
+}
+
