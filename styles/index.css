@@ -1,0 +1,222 @@
+
+
+#Nav
+{
+    display: flex;
+    gap: 15px;
+}
+
+.img
+{
+    width: 135px;
+    height: 35px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+p
+{
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #3C3C3C;
+    padding: 10px 10px 8px;
+    font-weight: 600;
+}
+
+#premium
+{
+    background-color: #FCB8274D;
+    border-radius: 2px;
+    color: #F7821B;
+}
+
+#premium:hover
+{
+    color: rgb(104, 104, 255);
+    cursor: pointer;
+}
+
+#jobseeker
+{
+    border: 1px solid;
+    margin-left: 50px;
+    
+}
+#employers
+{
+    border: 1px solid;
+}
+#jobseeker:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}
+
+#loginBanner
+{
+    width: 100%;
+    height: 350px;
+    border: 1px solid teal;
+    margin-top: 10px;
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-72369.jpg?w=2000");
+}
+ /* https://wallpapercave.com/wp/wp2787724.jpg */
+
+
+ #loginBanner div div 
+ {
+    display: flex;
+ }
+ #bannerHeading
+ {
+    color: white;
+    font-family: "Poppins";
+    margin-left: 60px;
+ }
+
+ 
+ #searchbanner
+ {
+    width: 50%;
+    height: 230px;
+    border: 1px solid;
+    background-color: #00000080;
+    margin-left: 60px;
+ }
+
+ #insideSbanner
+ {
+    display: flex;
+    margin-left: 30px;
+ }
+
+ #insideSbanner p
+ {
+    color: white;
+    font-family: "Poppins";
+ }
+#searchBar
+{
+    margin-left: 30px;
+    width: 460px;
+    height: 35px;
+}
+
+.btnsearch
+{
+    width: 140px;
+    background-color: rgb(64, 64, 175);
+    border: none;
+    color: white;
+    font-family: "Poppins";
+}
+.bar
+{
+    display: flex;
+}
+
+#trend
+{
+    color: white;
+}
+ #inner
+ {
+    width: 80%;
+    height: 230px;
+    border: 1px solid teal;
+    margin-left: 104%;
+    position: relative;
+    margin-bottom: 400px
+ }
+
+
+ a
+ {
+    text-decoration: none;
+    font-family: "Poppins";
+ }
+
+ #workfromHome
+ {
+    display: grid;
+    grid-template-columns: repeat(4, 26%);
+    grid-template-rows: repeat(1, );
+    margin-top: 30px;
+ }
+
+ #workfromHome> div
+ {
+    display: grid;
+    border: 1px solid rgb(247, 232, 232);
+    height: 100px;
+
+ }
+ 
+ #premium
+ {
+    display: flex;
+    gap: 10px;
+ }
+
+ #premium div
+ {
+    border: 1px solid rgb(194, 182, 182);
+    
+ }
+
+.imm
+{
+   margin-top: 20px;
+   margin-left: 150px;
+}
+
+#mo
+{
+    font-family: "Poppins";
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#mr> div
+{
+    border: 1px ;
+    height: 200px;
+    width: 80%;
+    margin-left: 100px;
+    background-color: rgb(204, 204, 204);
+    font-family: "Poppins";
+}
+
+#career
+{
+    font-family: "Poppins";
+    margin-left: 100px;
+}
+
+.footer
+{
+    width: 100%;
+    height: 340px;
+    background-color: rgb(129, 129, 189);
+    display: flex;
+    
+}
+
+.footer >div 
+{
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1);
+    width: 20%;
+    color: white;
+    font-family: "Poppins";
+
+}
+
+.footer a
+{
+    color: aliceblue;
+    font-family: "Poppins";
+    padding-left: 30px;
+}
+
